@@ -5,7 +5,7 @@
 
 	<groupId>com.namastemail.chetan</groupId>
 	<artifactId>NamasteMail</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 
 	<name>NamasteMail</name>
@@ -45,6 +45,16 @@
           </dependency>
 
 	</dependencies>
+	
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DINMB358-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
+	
+	
 
 	<build>
 		<plugins>
